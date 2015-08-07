@@ -97,7 +97,7 @@ GameObject:
   - 4: {fileID: 301920023}
   - 114: {fileID: 301920024}
   m_Layer: 5
-  m_Name: SplashConnect
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,8 +110,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 301920022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0294695497, y: .0157170929, z: 0}
-  m_LocalScale: {x: .00196463661, y: .00196463661, z: .00196463661}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 567935761}
   m_RootOrder: 0
@@ -127,22 +127,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1065211000}
     relative: 0
-    absolute: 0
+    absolute: -64
   rightAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1065211000}
     relative: 1
-    absolute: 0
+    absolute: 64
   bottomAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1065211000}
     relative: 0
-    absolute: 0
+    absolute: -83
   topAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1065211000}
     relative: 1
-    absolute: 0
-  updateAnchors: 1
+    absolute: 83
+  updateAnchors: 2
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 2048
@@ -244,7 +244,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: .5, g: .5, b: .5, a: 1}
+  m_BackGroundColor: {r: .5, g: .5, b: .5, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -276,6 +276,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 567935761}
+  - 114: {fileID: 567935762}
   m_Layer: 0
   m_Name: LoadingScreen
   m_TagString: Untagged
@@ -291,11 +292,22 @@ Transform:
   m_GameObject: {fileID: 567935760}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 508.999969, y: 508.999969, z: 508.999969}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 301920023}
   m_Father: {fileID: 415305780}
   m_RootOrder: 0
+--- !u!114 &567935762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 567935760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589604da8be9c45d8ab668b30b7b2a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1065210996
 GameObject:
   m_ObjectHideFlags: 0
