@@ -1,15 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class HeroPawn : MonoBehaviour {
+public class HeroPawn : MonoBehaviour
+{
+	private float Life = 3;
 
-	// Use this for initialization
-	void Start () {
-	
+	void OnParticleCollision (GameObject other)
+	{
+		DoDamage (1.0F);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	public void DoDamage (float damage)
+	{
+		Life -= damage;
+
+		if (Life <= 0)
+		{
+			Die();
+		}
+	}
+
+	private void Die ()
+	{
+		Destroy (gameObject);
 	}
 }
