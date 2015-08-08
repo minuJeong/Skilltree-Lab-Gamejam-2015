@@ -22,6 +22,15 @@ public class HeroPawn : MonoBehaviour
 
 	private void Die ()
 	{
-		Destroy (gameObject);
+		CapsuleCollider capsule = GetComponent<CapsuleCollider> ();
+
+		capsule.enabled = false;
+
+		GetComponentInChildren<Animator> ().Play (CONSTANTS.ANIMATION_STATE_DIE);
+		GetComponent<NavMeshAgent> ().Stop ();
+		GetComponent<NavMeshAgent> ().enabled = false;
+
+
+		Destroy (gameObject, 5.2F);
 	}
 }

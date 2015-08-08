@@ -34,4 +34,16 @@ public class Game : MonoBehaviour
 			yield return new WaitForSeconds (1.4F);
 		}
 	}
+
+	// Called Every Frame
+	private void Update ()
+	{
+		if (Input.GetButton("FireMain"))
+		{
+			BossPawn.Instance.breathControl.On ();
+		} else
+		{
+			BossPawn.Instance.breathControl.Off ();
+		}
+	}
 }

@@ -3,36 +3,31 @@ using System.Collections;
 
 public class FireBreathControl : MonoBehaviour
 {
-	// Use this for initialization
+	private ParticleSystem breathParticle;
+	private bool isOn;
+
 	void Start ()
 	{
-		// StartCoroutine ("BreathHitTest");
+		breathParticle = GetComponent<ParticleSystem> ();
 	}
 
-	// [DEPRECATED]
-	IEnumerator BreathHitTest ()
+	public void On ()
 	{
-		while (true)
-		{
-			Ray ray = new Ray (transform.position, transform.forward);
-			RaycastHit[] hits;
-
-			hits = Physics.RaycastAll(ray, 20.0F);
-
-			int len = hits.Length;
-
-			for (int i = 0; i < len; ++i)
-			{
-				Collider c = hits[i].collider;
-				if (null != c)
-				{
-					HeroPawn pawn = c.GetComponent<HeroPawn> ();
-
-					pawn.DoDamage (1);
-				}
-			}
-
-			yield return new WaitForSeconds (CONSTANTS.BREATH_HIT_TEST_FREQUENCY);
+		if (isOn) {
+			return;
 		}
+
+		isOn = true;
+		breathParticle.Play ();
+	}
+
+	public void Off ()
+	{
+		if (!isOn) {
+			return;
+		}
+
+		isOn = false;
+		breathParticle.Stop ();
 	}
 }
