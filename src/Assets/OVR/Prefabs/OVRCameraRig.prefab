@@ -76,6 +76,7 @@ GameObject:
   - 4: {fileID: 421562}
   - 33: {fileID: 3340026}
   - 23: {fileID: 2330632}
+  - 114: {fileID: 11422212}
   m_Layer: 0
   m_Name: HUD
   m_TagString: Untagged
@@ -144,8 +145,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
-  m_LocalRotation: {x: -.266910911, y: .71960777, z: -.364007831, w: -.527656734}
-  m_LocalPosition: {x: 6.79063654, y: 12.2201309, z: 2.34699202}
+  m_LocalRotation: {x: .121010385, y: -.875359178, z: .338699281, w: .323087782}
+  m_LocalPosition: {x: 9.89854527, y: 13.2671022, z: 18.3646526}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 459718}
@@ -338,6 +339,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11422212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a3ef481191f4462ace3e2636ecadd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11457356
