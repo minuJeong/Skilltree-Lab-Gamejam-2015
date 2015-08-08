@@ -10,13 +10,17 @@ public class SelectPart : MonoBehaviour
 		string partPath = "Prefabs/HeroParts/" + gameObject.name;
 
 		GameObject[] loadedParts = Resources.LoadAll<GameObject> (partPath);
-		GameObject instantiatedPart = Instantiate<GameObject> (loadedParts[Random.Range (0, loadedParts.Length)]);
 
-		instantiatedPart.transform.SetParent (transform);
-		instantiatedPart.transform.localPosition = Vector3.zero;
-		instantiatedPart.transform.localRotation = Quaternion.identity;
-		instantiatedPart.transform.localScale = new Vector3 (1, 1, 1);
+		if (loadedParts.Length > 0)
+		{
+			GameObject instantiatedPart = Instantiate<GameObject> (loadedParts[Random.Range (0, loadedParts.Length)]);
 
-		Resources.UnloadUnusedAssets ();
+			instantiatedPart.transform.SetParent (transform);
+			instantiatedPart.transform.localPosition = Vector3.zero;
+			instantiatedPart.transform.localRotation = Quaternion.identity;
+			instantiatedPart.transform.localScale = new Vector3 (1, 1, 1);
+
+			Resources.UnloadUnusedAssets ();
+		}
 	}
 }

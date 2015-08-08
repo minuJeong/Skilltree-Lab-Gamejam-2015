@@ -7,5 +7,8 @@ public class CONSTANTS
 
 	public const string ANIMATION_STATE_WALK = "walk";
 	public const string ANIMATION_STATE_DIE = "die";
+
+	public const float BREATH_MAX_STORAGE = 100.0F;
+	public const float BREATH_REGEN_FACTOR = 2.5F;
 }
 

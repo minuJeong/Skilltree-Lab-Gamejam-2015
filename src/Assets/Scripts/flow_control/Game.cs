@@ -15,19 +15,13 @@ public class Game : MonoBehaviour
 			string PawnPrefabName = "Prefabs/HeroPawn";
 			GameObject SpawnedPawn = Instantiate<GameObject> (Resources.Load<GameObject> (PawnPrefabName));
 
-			int spawnPointIndex = Random.Range (0, 3);
+			Transform SpawnPositionsContainer = PositionDefinition.Instance.transform.FindChild("PawnSpawnPositions");
 
-			switch (spawnPointIndex) {
-			case 0:
-				SpawnedPawn.transform.position = PositionDefinition.Instance.transform.FindChild ("PawnSpawn_1").position;
-				break;
-			case 1:
-				SpawnedPawn.transform.position = PositionDefinition.Instance.transform.FindChild ("PawnSpawn_2").position;
-				break;
-			case 2:
-				SpawnedPawn.transform.position = PositionDefinition.Instance.transform.FindChild ("PawnSpawn_3").position;
-				break;
-			}
+			int len = SpawnPositionsContainer.childCount;
+
+			int spawnPointIndex = Random.Range (0, len);
+
+			SpawnedPawn.transform.position = SpawnPositionsContainer.GetChild(spawnPointIndex).position;
 
 			SpawnedPawn.GetComponent<NavMeshAgent> ().SetDestination (PositionDefinition.Instance.transform.FindChild ("PawnDestination").position);
 
