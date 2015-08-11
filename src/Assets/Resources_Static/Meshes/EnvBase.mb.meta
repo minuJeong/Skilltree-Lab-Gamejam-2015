@@ -23,6 +23,10 @@ ModelImporter:
     100030: pCube1
     100032: pCube2
     100034: Pole
+    100036: BaseCliff
+    100038: BaseWalkable
+    100040: ViewBlocker
+    100042: Arch
     400000: //RootNode
     400002: Env1
     400004: polySurface1
@@ -41,6 +45,10 @@ ModelImporter:
     400030: pCube1
     400032: pCube2
     400034: Pole
+    400036: BaseCliff
+    400038: BaseWalkable
+    400040: ViewBlocker
+    400042: Arch
     2300000: //RootNode
     2300002: polySurface2
     2300004: polySurface5
@@ -48,6 +56,10 @@ ModelImporter:
     2300008: pCube1
     2300010: pCube2
     2300012: Pole
+    2300014: BaseCliff
+    2300016: BaseWalkable
+    2300018: ViewBlocker
+    2300020: Arch
     3300000: //RootNode
     3300002: polySurface2
     3300004: polySurface5
@@ -55,6 +67,10 @@ ModelImporter:
     3300008: pCube1
     3300010: pCube2
     3300012: Pole
+    3300014: BaseCliff
+    3300016: BaseWalkable
+    3300018: ViewBlocker
+    3300020: Arch
     4300000: pCube1
     4300002: Env1
     4300004: polySurface2
@@ -62,6 +78,10 @@ ModelImporter:
     4300008: polySurface6
     4300010: pCube2
     4300012: Pole
+    4300014: BaseCliff
+    4300016: BaseWalkable
+    4300018: ViewBlocker
+    4300020: Arch
     9500000: //RootNode
   materials:
     importMaterials: 1

@@ -32,6 +32,11 @@ ModelImporter:
     100048: joint13
     100050: joint14
     100052: joint15
+    100054: pCube4
+    100056: pCube5
+    100058: transform3
+    100060: transform4
+    100062: Wing
     400000: //RootNode
     400002: pCube1
     400004: pCube2
@@ -59,13 +64,21 @@ ModelImporter:
     400048: joint13
     400050: joint14
     400052: joint15
+    400054: pCube4
+    400056: pCube5
+    400058: transform3
+    400060: transform4
+    400062: Wing
     2300000: pCube1
     2300002: pCube2
+    2300004: Wing
     3300000: pCube1
     3300002: pCube2
+    3300004: Wing
     4300000: pCube1
     4300002: pCube2
     4300004: pCube3
+    4300006: Wing
     7400000: Take 001
     9500000: //RootNode
     13700000: pCube3

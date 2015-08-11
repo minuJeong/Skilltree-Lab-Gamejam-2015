@@ -43,9 +43,9 @@ MonoBehaviour:
   mSprites:
   - name: Draft
     x: 0
-    y: 2912
-    width: 2048
-    height: 1184
+    y: 1456
+    width: 1024
+    height: 592
     borderLeft: 0
     borderRight: 0
     borderTop: 0

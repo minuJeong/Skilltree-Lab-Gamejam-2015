@@ -6,6 +6,8 @@ public class Game : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		Application.LoadLevelAdditive ("3.HUD");
+
 		StartCoroutine ("SpawnPawn");
 	}
 

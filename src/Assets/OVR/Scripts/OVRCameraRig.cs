@@ -30,6 +30,8 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class OVRCameraRig : MonoBehaviour
 {
+	public static bool isTracking = true;
+
 	/// <summary>
 	/// The left eye camera.
 	/// </summary>
@@ -134,7 +136,7 @@ public class OVRCameraRig : MonoBehaviour
 		leftEyeAnchor.localPosition = monoscopic ? centerEyeAnchor.localPosition : hmdLeftEye.position;
 		rightEyeAnchor.localPosition = monoscopic ? centerEyeAnchor.localPosition : hmdRightEye.position;
 
-		if (UpdatedAnchors != null)
+		if (UpdatedAnchors != null && isTracking)
 		{
 			UpdatedAnchors(this);
 		}

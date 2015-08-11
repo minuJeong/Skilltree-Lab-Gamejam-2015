@@ -434,13 +434,26 @@ ModelImporter:
     bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
-    animationImportErrors: 'MuscleClip ''HeroBase@die'' conversion failed: Required
-      human bone ''Hips'' not found
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 'MuscleClip ''HeroBase@die''conversion warning:
+      LeftLowerArm average position error 1.5 mm and maximum position error 7.9 mm
+      at 10%
+
+
+      MuscleClip ''HeroBase@die''conversion warning: RightLowerArm average position
+      error 1.3 mm and maximum position error 6.4 mm at 7%
+
+
+      MuscleClip ''HeroBase@die'' conversion warning: LeftFoot average orientation
+      error 21.0 deg and maximum orientation error 33.0 deg at 41%
+
+
+      MuscleClip ''HeroBase@die'' conversion warning: RightFoot average orientation
+      error 46.0 deg and maximum orientation error 60.7 deg at 45%
 
 
 '
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 1
     animationCompression: 3
     animationRotationError: .5
@@ -475,137 +488,49 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference
+      - path: RigBase_Character1_Hips
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_ChestEndEffector
+      - path: RigBase_Character1_Hips/RigBase_Character1_LeftUpLeg
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_ChestOriginEffector
+      - path: RigBase_Character1_Hips/RigBase_Character1_LeftUpLeg/RigBase_Character1_LeftLeg
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_HeadEffector
+      - path: RigBase_Character1_Hips/RigBase_Character1_LeftUpLeg/RigBase_Character1_LeftLeg/RigBase_Character1_LeftFoot
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips
+      - path: RigBase_Character1_Hips/RigBase_Character1_LeftUpLeg/RigBase_Character1_LeftLeg/RigBase_Character1_LeftFoot/RigBase_Character1_LeftToeBase
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_LeftUpLeg
+      - path: RigBase_Character1_Hips/RigBase_Character1_RightUpLeg
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_LeftUpLeg/RigBase_Character1_Ctrl_LeftLeg
+      - path: RigBase_Character1_Hips/RigBase_Character1_RightUpLeg/RigBase_Character1_RightLeg
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_LeftUpLeg/RigBase_Character1_Ctrl_LeftLeg/RigBase_Character1_Ctrl_LeftFoot
+      - path: RigBase_Character1_Hips/RigBase_Character1_RightUpLeg/RigBase_Character1_RightLeg/RigBase_Character1_RightFoot
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_LeftUpLeg/RigBase_Character1_Ctrl_LeftLeg/RigBase_Character1_Ctrl_LeftFoot/RigBase_Character1_Ctrl_LeftToeBase
+      - path: RigBase_Character1_Hips/RigBase_Character1_RightUpLeg/RigBase_Character1_RightLeg/RigBase_Character1_RightFoot/RigBase_Character1_RightToeBase
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_RightUpLeg
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_RightUpLeg/RigBase_Character1_Ctrl_RightLeg
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_RightUpLeg/RigBase_Character1_Ctrl_RightLeg/RigBase_Character1_Ctrl_RightFoot
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_LeftShoulder
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_RightUpLeg/RigBase_Character1_Ctrl_RightLeg/RigBase_Character1_Ctrl_RightFoot/RigBase_Character1_Ctrl_RightToeBase
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_LeftShoulder/RigBase_Character1_LeftArm
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_LeftShoulder/RigBase_Character1_LeftArm/RigBase_Character1_LeftForeArm
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_LeftShoulder/RigBase_Character1_LeftArm/RigBase_Character1_LeftForeArm/RigBase_Character1_LeftHand
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_LeftShoulder
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_Neck
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_LeftShoulder/RigBase_Character1_Ctrl_LeftArm
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_Neck/RigBase_Character1_Neck1
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_LeftShoulder/RigBase_Character1_Ctrl_LeftArm/RigBase_Character1_Ctrl_LeftForeArm
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_Neck/RigBase_Character1_Neck1/RigBase_Character1_Head
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_LeftShoulder/RigBase_Character1_Ctrl_LeftArm/RigBase_Character1_Ctrl_LeftForeArm/RigBase_Character1_Ctrl_LeftHand
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_RightShoulder
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_Neck
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_RightShoulder/RigBase_Character1_RightArm
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_Neck/RigBase_Character1_Ctrl_Neck1
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_RightShoulder/RigBase_Character1_RightArm/RigBase_Character1_RightForeArm
         weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_Neck/RigBase_Character1_Ctrl_Neck1/RigBase_Character1_Ctrl_Head
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_RightShoulder
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_RightShoulder/RigBase_Character1_Ctrl_RightArm
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_RightShoulder/RigBase_Character1_Ctrl_RightArm/RigBase_Character1_Ctrl_RightForeArm
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_Hips/RigBase_Character1_Ctrl_Spine/RigBase_Character1_Ctrl_Spine1/RigBase_Character1_Ctrl_RightShoulder/RigBase_Character1_Ctrl_RightArm/RigBase_Character1_Ctrl_RightForeArm/RigBase_Character1_Ctrl_RightHand
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_HipsEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_LeftAnkleEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_LeftElbowEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_LeftFootEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_LeftHipEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_LeftKneeEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_LeftShoulderEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_LeftWristEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_RightAnkleEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_RightElbowEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_RightFootEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_RightHipEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_RightKneeEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_RightShoulderEffector
-        weight: 1
-      - path: RigBase_Character1_Ctrl_Reference/RigBase_Character1_Ctrl_RightWristEffector
-        weight: 1
-      - path: RigBase_Character1_Reference
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_LeftUpLeg
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_LeftUpLeg/RigBase_Character1_LeftLeg
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_LeftUpLeg/RigBase_Character1_LeftLeg/RigBase_Character1_LeftFoot
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_LeftUpLeg/RigBase_Character1_LeftLeg/RigBase_Character1_LeftFoot/RigBase_Character1_LeftToeBase
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_RightUpLeg
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_RightUpLeg/RigBase_Character1_RightLeg
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_RightUpLeg/RigBase_Character1_RightLeg/RigBase_Character1_RightFoot
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_RightUpLeg/RigBase_Character1_RightLeg/RigBase_Character1_RightFoot/RigBase_Character1_RightToeBase
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_LeftShoulder
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_LeftShoulder/RigBase_Character1_LeftArm
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_LeftShoulder/RigBase_Character1_LeftArm/RigBase_Character1_LeftForeArm
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_LeftShoulder/RigBase_Character1_LeftArm/RigBase_Character1_LeftForeArm/RigBase_Character1_LeftHand
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_Neck
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_Neck/RigBase_Character1_Neck1
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_Neck/RigBase_Character1_Neck1/RigBase_Character1_Head
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_RightShoulder
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_RightShoulder/RigBase_Character1_RightArm
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_RightShoulder/RigBase_Character1_RightArm/RigBase_Character1_RightForeArm
-        weight: 1
-      - path: RigBase_Character1_Reference/RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_RightShoulder/RigBase_Character1_RightArm/RigBase_Character1_RightForeArm/RigBase_Character1_RightHand
-        weight: 1
-      - path: RigBase_pCube2
-        weight: 1
-      - path: RigBase_pCube2/RigBase_transform2
+      - path: RigBase_Character1_Hips/RigBase_Character1_Spine/RigBase_Character1_Spine1/RigBase_Character1_RightShoulder/RigBase_Character1_RightArm/RigBase_Character1_RightForeArm/RigBase_Character1_RightHand
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
